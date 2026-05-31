@@ -107,5 +107,8 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<footer style="text-align:center; padding:10px; font-size:13px;">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss') + ' | 학번: 2271510 | 성명: 박계령'}"></p>
+</footer>
 </body>
 </html>
